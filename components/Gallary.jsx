@@ -32,8 +32,8 @@ const Gallery = ({ ar = false }) => {
             wrap={true}
             className={`${styles.carousel} ${styles.heigh}`}
           >
-            {gPhoto.map((e) => (
-              <Carousel.Item className={styles.heigh}>
+            {gPhoto.map((e, index) => (
+              <Carousel.Item className={styles.heigh} key={index}>
                 <Row>
                   <Col>
                     <img
