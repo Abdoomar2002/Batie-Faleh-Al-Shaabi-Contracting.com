@@ -1,25 +1,41 @@
-import React, { useEffect } from "react";
+"use client";
+import React, { useEffect, useRef } from "react";
 import "./About.css";
 import data from "@/app/data.json";
 const About = ({ ar = false }) => {
+  const observerRef = useRef(null);
   useEffect(() => {
-    const handleScroll = () => {
-      const cards = document.querySelectorAll(".card");
-      cards.forEach((card) => {
-        const rect = card.getBoundingClientRect();
-        if (rect.top < window.innerHeight) {
-          card.classList.add("visible");
-        }
-      });
-    };
+    if (typeof IntersectionObserver === "undefined") {
+      return;
+    }
 
-    window.addEventListener("scroll", handleScroll);
+    const observer = new IntersectionObserver(
+      (entries) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting) {
+            entry.target.classList.add("visible");
+            observer.unobserve(entry.target);
+          }
+        });
+      },
+      {
+        threshold: 0.1,
+      }
+    );
+
+    observerRef.current = observer;
+
+    const cards = document.querySelectorAll(`.card`);
+    cards.forEach((card) => {
+      observer.observe(card);
+    });
 
     return () => {
-      window.removeEventListener("scroll", handleScroll);
+      if (observerRef.current) {
+        observerRef.current.disconnect();
+      }
     };
   }, []);
-
   return (
     <div
       dir={ar ? "rtl" : "ltr"}

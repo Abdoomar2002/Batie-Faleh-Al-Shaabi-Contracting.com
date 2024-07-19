@@ -30,19 +30,6 @@ export default function RootLayout({ children }) {
           crossorigin="anonymous"
           strategy="beforeInteractive"
         ></Script>
-        <Script
-          src="/assets/js/jquery-3.6.0.min.js"
-          strategy="beforeInteractive"
-        />
-        <link
-          rel="stylesheet"
-          href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
-        />
-        <link
-          rel="stylesheet"
-          href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
-        />
-        <Script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" />
       </head>
       <body className={inter.className}>
         <Header />
