@@ -1,0 +1,327 @@
+@font-face {
+  font-family: "Cairo";
+  src: url("https://goldcleans.com/fonts/Cairo.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  font-family: "Cairo", sans-serif;
+}
+
+/* colors */
+.main-color {
+  background: #714d2a !important;
+}
+
+/* colors */
+
+/* navbar */
+
+.navbar {
+  background: #714d2a !important;
+}
+.navbar a {
+  color: white !important;
+}
+/* navbar */
+
+.carousel-item {
+  height: 100vh;
+  min-height: 300px;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.carousel {
+  z-index: -99;
+}
+
+.carousel-inner {
+  overflow: hidden;
+}
+
+.carousel-item img {
+  -webkit-transition: transform 2s;
+  transition: transform 2s;
+}
+
+.carousel-item.active img {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+.carousel-caption {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+/* carousel */
+
+.social-icons {
+  position: fixed;
+  top: 50%;
+  right: 0;
+  transform: translateY(-50%);
+  z-index: 2;
+  background: white;
+  padding: 5px;
+  border: 1px solid rgb(23, 184, 8);
+  border-radius: 5px;
+}
+
+.social-icons a {
+  display: block;
+  margin: auto;
+}
+
+/* services section */
+.card {
+  border: none;
+  border-radius: 0;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s;
+}
+.card-img-top {
+  height: 400px;
+}
+.imag {
+  max-height: 250px !important;
+  height: 250px !important;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+.card-title {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.card-text {
+  font-size: 1.2rem;
+}
+/* services section */
+
+/* about us */
+#about-us {
+  padding: 60px 0;
+  background-color: #f8f9fa;
+}
+.longpage .about-item {
+  height: 750px !important;
+}
+.longpage2 .about-item {
+  height: 925px !important;
+}
+
+#about-us h2 {
+  font-size: 42px;
+  font-weight: 700;
+  margin-bottom: 30px;
+  color: #5f6063;
+}
+
+.about-item {
+  background-color: #fff;
+  padding: 40px;
+  margin-bottom: 30px;
+  text-align: center;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease-in-out;
+}
+
+.about-item:hover {
+  background-color: #c1d6fd;
+  color: #fff2f2;
+}
+
+.about-item i {
+  font-size: 48px;
+  margin-bottom: 15px;
+  color: #5f6063;
+}
+
+.about-item h3 {
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  color: #5f6063;
+}
+
+.about-item p {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.5;
+  margin-bottom: 0;
+  color: #5f6063;
+  height: 150px;
+}
+
+/* about us */
+.card {
+  border: none;
+  border-radius: 0;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s;
+  height: 900px !important;
+}
+.imag {
+  max-height: 250px !important;
+  height: 250px !important;
+}
+/*start icons*/
+.confirm {
+  width: 100%;
+  padding: 50px 12%;
+  background-color: #f6f6f6;
+}
+.confirm .card {
+  height: 300px;
+}
+.chatbot-icon {
+  position: fixed;
+  bottom: 20px;
+  z-index: 9999;
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+
+  cursor: pointer;
+
+  display: inline;
+}
+
+.chatbot-icon img {
+  width: 100%;
+  height: 100%;
+}
+
+.default-icon {
+  opacity: 1;
+}
+
+.chatbot-icon:hover .default-icon {
+  opacity: 0;
+}
+
+.collapse.show {
+  display: block !important;
+  transition: box-shadow 0.5s;
+}
+.dropup:hover .chats {
+  display: block;
+  transition: opacity 0.3s, visibility 0.3s;
+}
+.chats {
+  display: inline-block;
+  width: 50px !important;
+  min-width: 50px !important;
+  background-color: transparent;
+  border: 0;
+  margin-right: -5px !important;
+  transition: opacity 0.3s, visibility 0.3s;
+}
+.owl-carousel img {
+  height: 400px !important;
+  margin: 50px auto;
+}
+
+#photo {
+  width: 350px;
+  height: 600px !important;
+  position: relative;
+  left: 0%;
+  transition: left 2s ease;
+  bottom: 30px;
+  background-color: transparent;
+}
+
+.data-of-product {
+  min-width: 40vw;
+  max-width: 60vw;
+  position: relative;
+  right: 40px;
+  top: 30px;
+  transition: right 2s ease;
+  margin-top: 200px;
+  display: inline-block;
+}
+
+.show {
+  right: 15%;
+  transform: translate(10%);
+  left: 10%;
+}
+.hover-text {
+  position: relative;
+  color: blue;
+}
+
+.hover-text:hover {
+  color: green;
+}
+.alt {
+  position: fixed;
+  bottom: 85px;
+  z-index: 9999;
+  right: 80px;
+  font-size: 1.5rem;
+  font-family: "cairo";
+  background-color: white;
+  padding: 1px;
+  border-radius: 10%;
+}
+
+.hover-text2 {
+  position: relative;
+  color: blue;
+}
+
+.hover-text2:hover {
+  color: darkred;
+}
+.alt2 {
+  position: fixed;
+  bottom: 30px;
+  z-index: 9999;
+  right: 80px;
+  font-size: 1.5rem;
+  background-color: white;
+  padding: 1px;
+  border-radius: 10%;
+  font-family: "cairo";
+}
+@media (max-width: 800px) {
+  .alt,
+  .alt2 {
+    display: none;
+  }
+}
+.serv {
+  color: black;
+  text-decoration: none;
+}
+@keyframes pulse-shadow {
+  0% {
+    box-shadow: 0 0 0 0 rgba(0, 255, 0, 0.5);
+    border-radius: 100%;
+  }
+  70% {
+    box-shadow: 0 0 0 10px rgba(0, 255, 0, 0);
+    border-radius: 100%;
+  }
+  100% {
+    box-shadow: 0 0 0 0 rgba(0, 0, 255, 0);
+    border-radius: 100%;
+  }
+}
+
+.chat-icon {
+  border: 5px;
+  animation: pulse-shadow 2s infinite;
+}

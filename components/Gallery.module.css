@@ -1,0 +1,12 @@
+/* Gallery.module.css */
+
+.heigh {
+  max-height: 400px;
+}
+.carousel img {
+  height: 250px !important;
+}
+.carousel .carousel-item {
+  display: flex;
+  justify-content: center;
+}

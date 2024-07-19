@@ -1,0 +1,23 @@
+/* Statics.module.css */
+.section {
+  animation: slideInUp 1s ease-in-out;
+}
+
+@keyframes slideInUp {
+  from {
+    transform: translate3d(0, 100%, 0);
+    visibility: visible;
+  }
+  to {
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+.aboutItem {
+  margin: 20px 0;
+}
+
+.counter {
+  font-size: 2rem;
+  font-weight: bold;
+}

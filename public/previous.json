@@ -1,0 +1,54 @@
+[
+  {
+    "previous_projects": {
+      "ar": "مراكز توزيع شركة نادك في عدة مناطق بالمملكة العربية السعودية.",
+      "en": "Nadec Distribution Centres in various parts of Saudi Arabia.",
+      "details": {
+        "1": {
+          "ar": "المنحدر: مخزن بارد، مخزن UHT، مخزن صناديق ومرتجعات، منطقة المناورة، مكتبين.",
+          "en": "Ramp: Cold store, UHT store, Crates & return store, Maneuvering area, 2 offices."
+        },
+        "2": {
+          "ar": "ورشة مع غسيل سيارات: ورشة، غسيل سيارات، مكتب ومخزن.",
+          "en": "Workshop with car wash: Workshop, Car wash, Office & store."
+        },
+        "3": {
+          "ar": "مبنى المكتب.",
+          "en": "Office building."
+        },
+        "4": {
+          "ar": "بيت الحراسة مع بوابة انزلاقية من الصلب.",
+          "en": "Guard house with steel sliding gate."
+        },
+        "5": {
+          "ar": "أعمال الأسفلت.",
+          "en": "Asphalt works."
+        }
+      }
+    }
+  },
+  {
+    "previous_projects": {
+      "ar": "قطع وردم وتسوية وسفلتة مشروع تدريب الأمن العام بالمدينة المنورة.",
+      "en": "Cutting, filling, leveling, and asphalting the Public Security Training Project in Madinah."
+    }
+  },
+  {
+    "previous_projects": {
+      "ar": "مشروع حفر وقطع ونقل مخلفات مشروع الحرس الوطني بالمدينة المنورة (شركة بن لادن).",
+      "en": "Drilling project and cut waste transfer project for the National Security Guard in Madinah (Bin Laden Company)."
+    }
+  },
+  {
+    "previous_projects": {
+      "ar": "قطع وردم وتسوية وسفلتة مشروع تدريب الأمن العام بالمدينة المنورة (شركة أركال).",
+      "en": "Cutting, filling, leveling, and asphalting the Public Security Training Project in Madinah (ARKAL Company)."
+    }
+  },
+  {
+    "previous_projects": {
+      "ar": "تنفيذ أعمال حفر وردم وتسوية بمخطط الملك فهد ومستشفى الولادة بالمدينة المنورة لشركة سعودي أوجيه.",
+      "en": "Implementation of drilling, filling, and leveling works for the King Fahd Plan and Maternity Hospital in Madinah for Saudi Oger Company."
+    }
+  }
+]
