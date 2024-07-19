@@ -6,7 +6,7 @@ export default function Fixed({ ar = false }) {
         className="chatbot-icon dropup"
         style={{ direction: ar ? "rtl" : "ltr", right: "25px", bottom: "80px" }}
       >
-        <a href="https://wa.me/+0555730488" target="_blank">
+        <a href="https://wa.me/+966508832578" target="_blank">
           <span className="hover-text">
             <img
               align="middel"
@@ -40,7 +40,7 @@ export default function Fixed({ ar = false }) {
         className="chatbot-icon dropup"
         style={{ direction: ar ? "rtl" : "ltr", right: "25px" }}
       >
-        <a href="tel:+0555730488">
+        <a href="tel:+966508832578">
           <span className="hover-text2">
             <img
               src="/images/phone.jpg"

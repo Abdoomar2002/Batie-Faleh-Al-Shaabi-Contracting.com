@@ -24,6 +24,9 @@ const Footer = () => {
             <Link href="tel:+0505301951" style={{ color: "white" }}>
               <p>الجوال 0505301951+</p>
             </Link>
+            <Link href="tel:+966508832578" style={{ color: "white" }}>
+              <p>الجوال 966 50 883 2578+</p>
+            </Link>
           </div>
           <div className="col-md-4 p-2">
             <h5>ايميليلات التواصل</h5>
