@@ -50,7 +50,7 @@ const Footer = () => {
                 style={{ color: "", fontSize: "23px" }}
               ></i>
             </Link>
-            <Link href="https://wa.me/+0555730488" className="text-light m-2">
+            <Link href="https://wa.me/+966508832578" className="text-light m-2">
               <i className="fab fa-whatsapp fa-2x" style={{ color: "" }}></i>
             </Link>
           </div>
